@@ -1,0 +1,19 @@
+{
+    "name": "kellerjmrtn/drupal7-password",
+    "description": "Class based implementation of Druapal 7's Password Hashing Functionality",
+    "license": "GPL-3.0-or-later ",
+    "authors": [
+        {
+            "name": "Keller Martin",
+            "email": "kellerjmrtn@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kellerjmrtn\\D7Password\\": "src/"
+        }
+    }
+}
